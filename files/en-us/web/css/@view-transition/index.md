@@ -2,10 +2,12 @@
 title: "@view-transition"
 slug: Web/CSS/@view-transition
 page-type: css-at-rule
+status:
+  - experimental
 browser-compat: css.at-rules.view-transition
 ---
 
-{{CSSRef}}
+{{CSSRef}}{{SeeCompatTable}}
 
 The **`@view-transition`** [CSS](/en-US/docs/Web/CSS) [at-rule](/en-US/docs/Web/CSS/At-rule) is used to opt in the current and destination documents to undergo a [view transition](/en-US/docs/Web/API/View_Transitions_API), in the case of a cross-document navigation.
 
@@ -83,6 +85,7 @@ In addition to the `@view-transition` at-rule, we define two {{cssxref("@keyfram
 }
 ```
 
+See this [transitions multi-page app](https://mdn.github.io/dom-examples/view-transitions/mpa/) demo live.
 
 ## Specifications
 
@@ -94,4 +97,11 @@ In addition to the `@view-transition` at-rule, we define two {{cssxref("@keyfram
 
 ## See also
 
+- {{cssxref("::view-transition", "::view-transition")}}
+- {{cssxref("::view-transition-new", "::view-transition-new()")}}
+- {{cssxref("::view-transition-old", "::view-transition-old()")}}
+- {{cssxref("::view-transition-group", "::view-transition-group()")}}
+- {{cssxref("::view-transition-image-pair", "::view-transition-image-pair()")}}
 - [View Transitions API](/en-US/docs/Web/API/View_Transitions_API)
+- [CSS at-rules](/en-US/docs/Web/CSS/At-rule)
+- [CSS at-rule functions](/en-US/docs/Web/CSS/At-rule_functions)
